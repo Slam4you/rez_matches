@@ -1,5 +1,5 @@
 dic = {}
-for i in range(int(input())):
+for i in range(int(input())):   # 1st input = number of matches(n), 2nd input =n Первая_команда;Забито_первой_командой;Вторая_команда;Забито_второй_командой
     string = input().split(';')
     if string[0] not in dic:
         dic[string[0]] = [1, 0, 0, 0, 0]  # Команда:Всего_игр, Побед, Ничьих, Поражений, Всего_очков
